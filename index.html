@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Bharath Kumar — Data Analyst Portfolio</title>
+  <script src="https://kit.fontawesome.com/a7cf500352.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{--accent:#0b74de;--muted:#6b7280;--bg:#f7f9fc;--card:#ffffff}
+    *{box-sizing:border-box;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial}
+    body{margin:0;background:var(--bg);color:#0f172a}
+    .container{max-width:980px;margin:36px auto;padding:28px}
+    header{display:flex;align-items:center;gap:18px}
+    .avatar{width:88px;height:88px;border-radius:12px;background:linear-gradient(135deg,var(--accent),#06b6d4);display:flex;align-items:center;justify-content:center;color:white;font-weight:700;font-size:28px}
+    h1{margin:0;font-size:22px}
+    .subtitle{color:var(--muted);margin-top:6px}
+    .top-actions{margin-left:auto;display:flex;gap:10px}
+    .btn{background:var(--accent);color:white;padding:10px 14px;border-radius:8px;text-decoration:none;font-weight:600}
+    .outlined{background:var(--accent);border:1px solid white;color:white}
+    .grid{display:grid;grid-template-columns:1fr 320px;gap:20px;margin-top:22px}
+    .card{background:var(--card);padding:12px;border-radius:12px;box-shadow:0 6px 18px rgba(12,20,30,0.06)}
+    .section-title{font-weight:700;color:#0f172a;margin-bottom:10px}
+    .skills{display:flex;flex-wrap:wrap;gap:8px}
+    .skill{background:#eef2ff;color:#1e293b;padding:8px 10px;border-radius:999px;font-size:13px}
+    .projects{display:flex;flex-direction:column;gap:12px}
+    .project{border-left:4px solid var(--accent);padding:12px 14px;border-radius:8px;background:linear-gradient(180deg,#fff,#fbfdff)}
+    .project h3{margin:0;font-size:15px}
+    .project p{margin:8px 0;color:var(--muted);font-size:13px}
+    .meta{font-size:13px;color:var(--muted)}
+    footer{margin-top:28px;text-align:center;color:var(--muted);font-size:14px}
+    .contact{display:flex;flex-direction:column;gap:8px}
+    .contact a{color:var(--accent);text-decoration:none;font-weight:600}
+    .icons{font-size: 35px}
+    .fa-linkedin{color: black;}
+    .fa-instagram{color: black;}
+    .fa-github{color: black;}
+    @media (max-width:880px){.grid{grid-template-columns:1fr;}.top-actions{display:none}}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header class="card">
+      <div style="display:flex;align-items:center;width:100%">
+        <div class="avatar">BR</div>
+        <div style="margin-left:14px">
+          <h1>BHARATH KUMAR REDDY YARRAPAREDDY</h1>
+          <div class="subtitle">MBA | Aspiring Data Analyst — SQL · Power BI · Tableau · Python · Excel</div>
+          <div style="margin-top:8px;color:var(--muted);font-size:14px">Kadapa, Andhra Pradesh • <a href="mailto:bharath630007@gmail.com">bharath630007@gmail.com</a> <br>• +91 6300071388</div>
+        </div>
+        <div class="top-actions">
+          <a class="btn" href="Bharath_Resume.pdf" download>Download Resume </a>
+          <a class="btn outlined" href="Bharath_Cover_Letter.pdf" download>Download Cover Letter</a>
+        </div>
+      </div>
+    </header>
+
+    <div class="grid">
+      <main>
+        <div class="card">
+          <div class="section-title"><i class="fa-solid fa-user"></i> ABOUT</div>
+          <p style="color:var(--muted);line-height:1.6">Detail-oriented Data Analyst with strong analytical and business skills backed by an MBA. 
+Skilled in SQL, Power BI, Tableau, Excel, and Python. Experienced in conducting data-driven 
+surveys, preparing dashboards, performing data cleaning, and generating insights to 
+support decision-making.</p>
+
+          <div style="margin-top:16px" class="section-title"><i class="fa-solid fa-diagram-project"></i> PROJECTS</div>
+          <div class="projects">
+            <div class="project">
+              <h3>Customer Satisfaction Analysis — MG Motors (Academic)</h3>
+              <p>Led survey design and data collection to measure satisfaction with AI-enabled features. Cleaned and analyzed responses; built an interactive Power BI dashboard highlighting satisfaction drivers and recommended UX improvements.</p>
+            </div>
+
+            <div class="project">
+              <h3>AI Awareness Study — Experiential Learning</h3>
+              <p>Designed questionnaires and analyzed awareness levels across demographics. Mapped knowledge gaps and proposed targeted awareness campaigns to improve AI literacy.</p>
+            </div>
+
+            <div class="project">
+              <h3>Dashboard: Sales & Customer KPIs</h3>
+              <p>Prototype dashboard demonstrating KPI tracking, trend analysis and simple predictive signals. Useful for product and marketing decisions.</p>
+              <div class="meta">Tools: Power BI, Excel • Techniques: KPI design, visualization</div>
+            </div>
+          </div>
+          <div style="margin-top:16px" class="section-title"><i class="fa-solid fa-user-graduate"></i> EDUCATION</div>
+          <p class="meta">• <strong>MBA</strong> — KSRM College, JNTU Anantapur (2025) | GPA: 7.57<br>• <strong>BBA</strong> — Sri Hari Degree & PG College, YVU (2022) | GPA: 6.58 <br>• <strong>Intermediate</strong> — NRI Junior College (2019) | GPA: 5.79 <br>• <strong>Secondary</strong> — Sri Sarada Nikethan E.M High School (2017) | GPA: 7.0 </p>
+
+        </div>
+
+        
+
+      </main>
+
+      <aside>
+        <div class="card">
+          <div class="section-title"><i class="fa-solid fa-lightbulb"></i> TECHNICAL SKILLS</div>
+          <div class="skills">
+            <div class="skill">SQL</div>
+            <div class="skill">Power BI</div>
+            <div class="skill">Tableau</div>
+            <div class="skill">Excel</div>
+            <div class="skill">Python (Basics)</div>
+            <div class="skill">Data Cleaning</div>
+            <div class="skill">Dashboarding</div>
+            <div class="skill">Reporting</div>
+          </div>
+        </div>
+
+        <div style="margin-top:12px" class="card">
+          <div class="section-title"><i class="fa-solid fa-address-card"></i> CONTACT</div>
+          <div class="contact">
+            <div><i class="fa-solid fa-envelope"></i> Email: <a href="mailto:bharath630007@gmail.com">bharath630007@gmail.com</a></div>
+            <div><i class="fa-solid fa-phone"></i> Phone: +91 6300071388</div>
+            <div><i class="fa-solid fa-location-dot"></i> Location: Kadapa, Andhra Pradesh</div>
+            <div class="icons">
+            <a href="https://www.linkedin.com/in/bharath-kumar-reddy-yarrapa-reddy-205987233/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/devil_bharath6/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://github.com/Bharath63000/" target="_blank"><i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div style="margin-top:12px" class="card">
+          <div class="section-title"> <i class="fa-solid fa-certificate"></i> CERTIFICATIONS</div>
+          <ul style="color:var(--muted)">
+            <li>Power BI for Beginners</li>
+            <li>SQL for Data Analysis</li>
+            <li>Excel for Data Analytics</li>
+          </ul>
+        </div>
+
+        
+      </aside>
+    </div>
+
+    <footer>
+      Built by 👑<strong>Bharath Kumar Reddy</strong>
+    </footer>
+  </div>
+</body>
+</html>
